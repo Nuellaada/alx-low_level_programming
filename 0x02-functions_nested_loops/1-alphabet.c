@@ -2,13 +2,14 @@
 /**
  * main - check the code
  *
- * Description: program that prints the alphabet
+ * short description print_alphabet: uses _putchar to print lower case letters
  *
  * Return: Always 0.
  */
 void print_alphabet(void)
 {
 	char ch;
+	
 	for (ch = 'a'; ch <= 'z'; ch++)
 	
 	{

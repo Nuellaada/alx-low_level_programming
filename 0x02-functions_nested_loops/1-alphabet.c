@@ -1,18 +1,17 @@
 #include "main.h"
-
 /**
- * main - Entry point
- *
- * short description print_alphabet: uses _putchar to print lower case letters
- *
- * Return: Always (0)
-*/
+ * print_alphabet - prints the alphabets in lower case
+ * Return: returns 0 if successful
+ */
 
-void print_alphabet(void)
+void  print_alphabet(void)
 {
-	int alpha;
+	char alphabet = 'a';
 
-	for (alpha = 'a'; alpha <= 'z'; ++alpha)
-		_putchar(alpha);
+	while (alphabet <= 'z')
+	{
+		_putchar(alphabet);
+		alphabet++;
+	}
 	_putchar('\n');
 }

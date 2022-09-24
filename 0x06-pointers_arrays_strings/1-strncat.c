@@ -2,9 +2,10 @@
 #include<stdio.h>
 
 /**
- * main - concatenates two strings
- * @dest: destination
- * @src: source
+ * _strncat - concatenates two strings
+ * @dest: destination string
+ * @src: source string
+ * @n: number of bytes
  * Return: always 0(success)
  */
 

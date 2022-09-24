@@ -1,13 +1,13 @@
-#include"main.h"
-#include<stdio.h>
+#include "main.h"
+#include <string.h>
 
 /**
- * _strncat - concatenates two strings
- * @dest: destination string
- * @src: source string
- * @n: number of bytes
- * Return: always 0(success)
- */
+* _strncat - concatenates by appending 2 strings together
+* @dest: destination string
+* @src: source string
+* @n: number of bytes
+* Return: 0 if successfull
+*/
 
 char *_strncat(char *dest, char *src, int n)
 {

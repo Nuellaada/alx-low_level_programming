@@ -3,22 +3,14 @@
 #include<string.h>
 
 /**
- * main - function appends the src string to the dest string
- * overwriting the terminating null byte (\0) at the end of dest,
- * and then adds a terminating null byte
- * Return: pointer
+ * _strcat - concatenates by appending 2 strings together
+ * @dest: destination string
+ * @src: source string
+ * Return: 0 if successful
  */
 
 char *_strcat(char *dest, char *src)
 {
-	char s1[98] = "Hello ";
-	char s2[] = "World!\n";
-	char *ptr;
-
-
-	ptr = _strcat(s1, s2);
-	_putchar('s1');
-	_putchar('s2');
-	_putchar('ptr')
-	_putchar('\n');
+	strcat(dest, src);
+	return (dest);
 }
